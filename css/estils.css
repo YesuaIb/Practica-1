@@ -3,7 +3,6 @@
 }
 header{
     background-color: aquamarine;
-
 }
 h1{
     text-align: center;    
@@ -31,19 +30,29 @@ h1{
     background-color: grey;
 }
 main{
-    position: absolute;
+    position: relative;
+    margin-top: 1%;
 }
 img{
-    height:200px;
-    margin-top: 1%; 
-    display: inline;  
-    position: relative; 
+    height:200px;   
     left: 0;
+    float:left;
 }
-div{
+main h2{
+    margin-bottom: 10px;
+}
+footer{
+    position:relative;
+    margin-top: 71px;
+    width: 100%;
+    background-color: rgb(208, 207, 207);
+}
+span,address{
     display: inline;
-    right: 0;
-    background-color: blue;
-    position: absolute; 
-    float: right;
+    text-align: left;
 }
+aside h3{
+    display: inline;
+    
+}
+
