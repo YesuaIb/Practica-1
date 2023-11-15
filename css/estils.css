@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+}
+header{
+    background-color: aquamarine;
+
+}
+h1{
+    text-align: center;    
+}
+.menu ul {    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+} 
+.menu li {
+    float: left;
+}
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} 
+.menu li a:hover:not(.activo) {
+    background-color: green;
+}
+.activo {
+    background-color: grey;
+}
+main{
+    position: absolute;
+}
+img{
+    height:200px;
+    margin-top: 1%; 
+    display: inline;  
+    position: relative; 
+    left: 0;
+}
+div{
+    display: inline;
+    right: 0;
+    background-color: blue;
+    position: absolute; 
+    float: right;
+}
