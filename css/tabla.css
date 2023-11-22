@@ -4,11 +4,13 @@
 
 /*definimos cuanto ocupara la tabla y como sera su contorno*/
 table{
-    margin-top: 4px;
+    margin-top: 1%;
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
     border: 1px solid #333;
+    margin-bottom: 1%;
+    background-color:cyan;
 }
 th, td{
     width: 25%;
@@ -16,18 +18,5 @@ th, td{
     vertical-align: top;
     border: 1px solid #333;
     border-collapse: collapse;
-}
-footer{/* modificamos el footer para que tenga un fonde de color, que ocupe todo el ancho de la pantalla, y que tenga un margen con el main */
-    position:relative;
-    
-    width: 100%;
-    background-color: rgb(208, 207, 207);
-}
-span,address{   /* Posicionamos el texto a la izquierda y que se comporte como un elemento de linea*/
-    display: inline;
-    text-align: left;
-}
-aside h3{/* Posicionamos el texto a la izquierda y que se comporte como un elemento de linea*/
-    display: inline;
-    
+    color:orangered ;
 }

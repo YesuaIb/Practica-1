@@ -10,29 +10,7 @@ header{ /*modificamos el background con un color*/
 h1{ /*Centramos el titulo*/
     text-align: center;    
 }
-.menu ul {    
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-} 
-.menu li {
-    float: left;
-}
-.menu li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-} 
-.menu li a:hover:not(.activo) {
-    background-color: green;
-}
-.activo {
-    background-color: grey;
-}
+
 
 /*Parte del main*/
 
@@ -50,7 +28,7 @@ img{/*Posicionamos la imagen a la izquierda y le damos un tamaño*/
 main h2{ /*Generamos un margen superior para que tenda una distancia con la barra de navegacion*/
     margin-bottom: 10px;
 }
-main h2 p{
-    margin-bottom: 50px;
+main p{
+    margin-bottom: 2%;
 }
 
