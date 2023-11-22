@@ -39,30 +39,18 @@ h1{ /*Centramos el titulo*/
 main{ /*Modificamos todo el main para que la posicion del contenido sea relativo*/
     position: relative;
     margin-top: 1%;
+
 }
 img{/*Posicionamos la imagen a la izquierda y le damos un tamaño*/
-    height:200px;   
+    height:180px;   
     left: 0;
     float:left;
+    
 }
 main h2{ /*Generamos un margen superior para que tenda una distancia con la barra de navegacion*/
     margin-bottom: 10px;
 }
-
-/*Parte del footer*/
-
-footer{/* modificamos el footer para que tenga un fonde de color, que ocupe todo el ancho de la pantalla, y que tenga un margen con el main */
-    position:relative;
-    margin-top: 71px;
-    width: 100%;
-    background-color: rgb(208, 207, 207);
-}
-span,address{   /* Posicionamos el texto a la izquierda y que se comporte como un elemento de linea*/
-    display: inline;
-    text-align: left;
-}
-aside h3{/* Posicionamos el texto a la izquierda y que se comporte como un elemento de linea*/
-    display: inline;
-    
+main h2 p{
+    margin-bottom: 50px;
 }
 
