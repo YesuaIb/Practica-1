@@ -1,13 +1,17 @@
-*{
+*{ /*Quitamos los margenes de toda la pagina web*/
     margin: 0%;
 }
-header{
+
+/*Parte del header*/
+
+header{ /*modificamos el background con un color*/
     background-color: aquamarine;
 }
-h1{
+h1{ /*Centramos el titulo*/
     text-align: center;    
 }
-.menu ul {    list-style-type: none;
+.menu ul {    
+    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -29,29 +33,35 @@ h1{
 .activo {
     background-color: grey;
 }
-main{
+
+/*Parte del main*/
+
+main{ /*Modificamos todo el main para que la posicion del contenido sea relativo*/
     position: relative;
     margin-top: 1%;
 }
-img{
+img{/*Posicionamos la imagen a la izquierda y le damos un tamaño*/
     height:200px;   
     left: 0;
     float:left;
 }
-main h2{
+main h2{ /*Generamos un margen superior para que tenda una distancia con la barra de navegacion*/
     margin-bottom: 10px;
 }
-footer{
+
+/*Parte del footer*/
+
+footer{/* modificamos el footer para que tenga un fonde de color, que ocupe todo el ancho de la pantalla, y que tenga un margen con el main */
     position:relative;
     margin-top: 71px;
     width: 100%;
     background-color: rgb(208, 207, 207);
 }
-span,address{
+span,address{   /* Posicionamos el texto a la izquierda y que se comporte como un elemento de linea*/
     display: inline;
     text-align: left;
 }
-aside h3{
+aside h3{/* Posicionamos el texto a la izquierda y que se comporte como un elemento de linea*/
     display: inline;
     
 }
